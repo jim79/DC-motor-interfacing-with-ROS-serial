@@ -1,4 +1,5 @@
 # DC motor interfacing using ROS serial Arduino
+In
 ##### Project has been built for Arduino Nano
 
 ### Steps
@@ -16,4 +17,8 @@
 8. Within the Arduino loop function : 
     - Process the subcriber callback (nh.spinOnce())
     - Add a small delay
+
+### Additional Resources
+- [Configure VS Code for rosserial_arduino](https://jim79.github.io/rosserial-arduino-vscode/)
+- [Video tutorial - Configure VS Code for rosserial_arduino](https://youtu.be/RZAXBMoWJcE)
 
