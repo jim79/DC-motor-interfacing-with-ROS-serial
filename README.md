@@ -29,6 +29,7 @@
 
 ### Steps to run the code
 1. Launch ```roscore``` in a terminal \\
+
 ```roscore```
 
 2. In another terminal type in following to launch a rosserial connection with Arduino \\
