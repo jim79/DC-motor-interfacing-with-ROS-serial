@@ -2,6 +2,11 @@
 
 ##### Project has been built for Arduino Nano
 
+### Equipment required
+1. Arduino Uno or Nano  - 1 nos
+2. BO motor (DC toy) - 1 nos
+3. L298 or L293 motor driver - 1 nos
+
 ### Steps to code 
 1. Include the required header files
 2. Declare the arduino pins connected to motor, PWM pins
