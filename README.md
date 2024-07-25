@@ -23,11 +23,11 @@
 - [Video tutorial - Configure VS Code for rosserial_arduino](https://youtu.be/RZAXBMoWJcE)
 
 ### Steps to run the code
-1. Launch ```roscore``` in a terminal
+1. Launch ```roscore``` in a terminal \\
 ```roscore```
 
-2. In another terminal type in following to launch a rosserial connection with Arduino
+2. In another terminal type in following to launch a rosserial connection with Arduino \\
 ```rosrun rosserial_arduino serial_node.py _baud:=115200
 ```
-3. In yet another terminal run ```teleop_twist_keyboard``` to control the motor. Since we have interfaced only one motor we can verify the following functionalities - bot_forward, bot_backward and bot_stop. The bot_left and bot_right functionalities can be verified by interfacing one more motor.
+3. In yet another terminal run ```teleop_twist_keyboard``` to control the motor. Since we have interfaced only one motor we can verify the following functionalities - bot_forward, bot_backward and bot_stop. The bot_left and bot_right functionalities can be verified by interfacing one more motor. \\
 ```rosrun teleop_twist_keyboard teleop_twist_keyboard.py```
